@@ -1,0 +1,45 @@
+/**01
+*/
+.taeapp .main01{ margin: 0 auto; width: 950px;  text-align:left; background-image: url("http://img01.taobaocdn.com/imgextra/i1/898384566/T2RsGgXbtcXXXXXXXX_!!898384566.gif");  }
+.taeapp .banner01 .logo{ height: 95px; width: 330px; overflow: hidden; float: left;}
+.taeapp .banner01 .logo-icon{ text-align: center; margin-top: 20px;}
+.taeapp .banner01 .logo{ height: 95px; width: 330px; overflow: hidden; float: left;}
+.taeapp .banner01 .logo-icon{ text-align: center; margin-top: 20px;}
+.taeapp .banner01 .navigation .navi-icon{ width:25px; height: 28px; background-color: lightslategray;float: left; }
+.taeapp .banner01 .navigation .navi-list{ width:110px;overflow: hidden; float: left; }
+.taeapp .banner01 .navigation .navi-list-top{ height: 42px; width: 620px;}
+.taeapp .banner01 .navigation .shop-class{ width:60px; height: 28px; font-size: 14px; text-align: center;  float: left; line-height: 2em; }
+.taeapp .banner01 .navigation .shop-class a{ color: saddlebrown;}
+
+.taeapp .scroll01{  overflow: hidden; width: 950px; height:350px; text-align: center;}
+.taeapp .shop-show01{ overflow: hidden; padding: 0 22px; width: 903px; text-align: center;}
+.taeapp .shop-show01 img{ border:0;}
+.taeapp .special-li-pic1{ margin-top: -2px !important;}
+.taeapp .special-li-pic2{ margin-top: -9px !important;}
+.taeapp .shop-show01 table{ float: left; margin-left:-8px; margin-top: -15px; border-space:"separate"; } 
+.taeapp .img-table {  border-collapse: separate; border-spacing: 15px;}
+/**03
+*/
+.taeapp .main03{ margin: 0 auto; width: 950px;  text-align:left; background-image: url("http://img03.taobaocdn.com/imgextra/i3/898384566/T2tGBIXbpdXXXXXXXX_!!898384566.gif");  }
+.taeapp .main03 .banner03{ height:200px; overflow: hidden;}
+.taeapp .banner03 .logo{ height: 200px; width: 330px; overflow: hidden; float: left;}
+.taeapp .banner03 .logo-icon{ text-align: center; margin-top: 20px;}
+.taeapp .banner03 .navigation{ height: 200px; width: 620px; overflow: hidden; float: left;}
+.taeapp .banner03 .navigation a{ text-decoration: none;}
+.taeapp .banner03 .navigation .navi-list{ width:110px;overflow: hidden; float: left; }
+.taeapp .banner03 .navigation .navi-list-top{ height: 42px; width: 620px;}
+.taeapp .banner03 .navigation .navi-icon{ width:25px; height: 28px; background-color: lightslategray;float: left; }
+.taeapp .banner03 .navigation .shop-class{ font-size: 14px; width:60px; height: 28px; text-align: center;  float: left; line-height: 2em; }
+.taeapp .banner03 .navigation .shop-class a{ color: saddlebrown;}
+.taeapp .banner03 .navigation .shop-list{ width: 110px; height:130px;float: left;}
+.taeapp .banner03 .navigation .left-box{ float: left; width: 35px; height: 130px; padding-top: 8px; padding-bottom: 8px;overflow: hidden;}
+.taeapp .banner03 .navigation .left-line{ border: 1/2px solid #ddd; float: right; height: 110px;width: 1px; background-color: #ddd;    }
+.taeapp .banner03 .navigation .right-box{ width:75px; height: 130px; overflow: hidden; float: left; padding-top: 10px;}
+.taeapp .banner03 .navigation .right-box ul{  list-style: none;  font-size: 12px; padding-left: 5px; line-height: 2em;}
+.taeapp .banner03 .navigation .right-box a{ color: dimgrey;}
+
+.taeapp .shop-show03{overflow: hidden; padding: 0 22px; width: 878px; }
+.taeapp .box-radius{ -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px;}
+.taeapp .shop-show03 img{ border:0; width:267px;}
+.taeapp .left-img-zone,.taeapp .middle-img-zone,.taeapp .right-img-zone{ width:276px; float: left; margin-left: 16px;}
+.taeapp .shop-show03 .style-img{ width: 276px;  overflow: hidden; float: left; margin:6px; padding:6px 0 6px 6px; background-color: white; }

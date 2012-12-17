@@ -1,0 +1,49 @@
+!!com.taobao.tae.config.domain.Config
+
+#应用元信息
+title: 时裳季
+#网页标题的设置
+description: 时裳季 - 当季时尚新品！
+language: php
+author: Sam
+thumbnail: /logo.jpg
+
+#type: 1 tae 模块 2 独立站点
+type: 2
+
+#全局css的配置
+css: /assets/stylesheets/default.css
+
+#首页 通过域名直接访问的页面如test.uz.taobao.com访问时的页面
+index: /view/front/index.php
+
+
+#http请求配置
+urls:
+#前端页面
+#url配置的是短域名，配置后可以访问/view/front/view.php 相当于是 /d/index 
+#主页 其中包含了css和js的demo
+- {handler: /view/front/index.php, url: /index}
+- {handler: /view/front/changkuanyi.php, url: /changkuanyi}
+- {handler: /view/front/duankuanyi.php, url: /duankuanyi}
+- {handler: /view/front/maoniduanku.php, url: /maoniduanku}
+- {handler: /view/front/maoniqun.php, url: /maoniqun}
+- {handler: /view/front/maoyi.php, url: /maoyi}
+- {handler: /view/front/niuzaiku.php, url: /niuzaiku}
+- {handler: /view/front/dayi.php, url: /dayi}
+- {handler: /view/front/nvbao.php, url: /nvbao}
+- {handler: /view/front/nvxie.php, url: /nvxie}
+- {handler: /view/front/shipin.php, url: /shipin}
+- {handler: /view/front/child.php, url: /child}
+
+#安全和权限配置，默认是所有人都可以访问
+#这个是前缀规则, url代表请求相对路径的前缀。
+#role代表安全级别
+#anonymous是任何用户都可以访问
+#developer是站点所有者才能访问,
+#shopcustomer 是表示登录用户可以访问
+
+security:
+#front下面页面都是所有人可以访问
+- {url: /view/front,role: anonymous }
+
